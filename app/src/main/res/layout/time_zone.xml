@@ -16,14 +16,134 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Current time:" />
+        tools:text="@string/local_current_time" />
+
+    <View
+        android:id="@+id/current_time_divider"
+        style="@style/Horizontal_Divider"
+        app:layout_constraintTop_toBottomOf="@id/current_time"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/current_time_los_angeles"
+        style="@style/Widget.OneClock.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_between_views"
+        android:layout_marginBottom="@dimen/space_between_views"
+        android:gravity="center_horizontal"
+        android:text= "@string/los_angeles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/current_time_divider"
+        tools:text="Los Angeles:" />
+
+    <View
+        android:id="@+id/los_angeles_time_divider"
+        style="@style/Horizontal_Divider"
+        app:layout_constraintTop_toBottomOf="@id/current_time_los_angeles"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/current_time_denver"
+        style="@style/Widget.OneClock.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_between_views"
+        android:layout_marginBottom="@dimen/space_between_views"
+        android:gravity="center_horizontal"
+        android:text="@string/denver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/los_angeles_time_divider"
+        tools:text="Denver:" />
+
+    <View
+        android:id="@+id/denver_time_divider"
+        style="@style/Horizontal_Divider"
+        app:layout_constraintTop_toBottomOf="@id/current_time_denver"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/current_time_texas"
+        style="@style/Widget.OneClock.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_between_views"
+        android:layout_marginBottom="@dimen/space_between_views"
+        android:gravity="center_horizontal"
+        android:text="@string/texas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/denver_time_divider"
+        tools:text="Texas:" />
+
+    <View
+        android:id="@+id/texas_time_divider"
+        style="@style/Horizontal_Divider"
+        app:layout_constraintTop_toBottomOf="@id/current_time_texas"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/current_time_chicago"
+        style="@style/Widget.OneClock.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_between_views"
+        android:layout_marginBottom="@dimen/space_between_views"
+        android:gravity="center_horizontal"
+        android:text="@string/chicago"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texas_time_divider"
+        tools:text="Chicago:" />
+
+    <View
+        android:id="@+id/chicago_time_divider"
+        style="@style/Horizontal_Divider"
+        app:layout_constraintTop_toBottomOf="@id/current_time_chicago"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/current_time_new_york"
+        style="@style/Widget.OneClock.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_between_views"
+        android:layout_marginBottom="@dimen/space_between_views"
+        android:gravity="center_horizontal"
+        android:text="@string/new_york"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chicago_time_divider"
+        tools:text="New York:" />
+
+    <View
+        android:id="@+id/new_york_time_divider"
+        style="@style/Horizontal_Divider"
+        app:layout_constraintTop_toBottomOf="@id/current_time_new_york"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/current_time_london"
+        style="@style/Widget.OneClock.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_between_views"
+        android:layout_marginBottom="@dimen/space_between_views"
+        android:gravity="center_horizontal"
+        android:text="@string/london"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/new_york_time_divider"
+        tools:text="London:" />
 
     <Button
         android:id="@+id/update_time_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/update_time"
-        app:layout_constraintEnd_toEndOf="@id/current_time"
-        app:layout_constraintStart_toStartOf="@id/current_time"
-        app:layout_constraintTop_toBottomOf="@id/current_time" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

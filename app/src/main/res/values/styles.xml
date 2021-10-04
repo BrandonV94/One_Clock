@@ -5,4 +5,12 @@
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
         <item name="android:textSize">24sp</item>
     </style>
+
+    <style name="Horizontal_Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
 </resources>

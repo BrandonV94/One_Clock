@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">One Clock</string>
-    <string name="current_local_time">Current Time: $time</string>
     <string name="update_time">Update Time</string>
+    <string name="new_york">New York:</string>
+    <string name="london">London:</string>
+    <string name="denver">Denver:</string>
+    <string name="chicago">Chicago:</string>
+    <string name="texas">Texas:</string>
+    <string name="los_angeles">Los Angeles:</string>
+    <string name="local_current_time">Local Current Time:</string>
 </resources>
