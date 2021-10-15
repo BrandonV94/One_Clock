@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">One Clock</string>
     <string name="update_time">Update Time</string>
-    <string name="new_york">New York:</string>
-    <string name="london">London:</string>
-    <string name="denver">Denver:</string>
-    <string name="chicago">Chicago:</string>
-    <string name="texas">Texas:</string>
-    <string name="los_angeles">Los Angeles:</string>
-    <string name="local_current_time">Local Current Time:</string>
+    <string name="new_york">New York (EST):</string>
+    <string name="london">London (GMT):</string>
+    <string name="denver">Denver (MST):</string>
+    <string name="chicago">Chicago (CST):</string>
+    <string name="texas">Texas (CST):</string>
+    <string name="los_angeles">Los Angeles (PST):</string>
+    <string name="local_current_time">Local Current Time</string>
 </resources>
